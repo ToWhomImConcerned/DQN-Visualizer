@@ -158,7 +158,7 @@ def main():
                     if event.key == pygame.K_w:
                         train_speed = min(300, train_speed + 20)
                     if event.key == pygame.K_s:
-                        train_speed = max(1, train_speed - 20)
+                        train_speed = max(20, train_speed - 20)
 
             action = agent.choose_action(state)
             new_pos, reward, done = env.step(action)
