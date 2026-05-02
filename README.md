@@ -1,6 +1,6 @@
 # DQN Visualizer
 
-![demo](DQN_Heatmap_amin.gif)
+![demo](DQN_Heatmap_Amin.gif)
 
 A deep reinforcement learning agent that learns to navigate a maze using 
 Deep Q-Learning (DQN). Watch the neural network build its understanding of 
